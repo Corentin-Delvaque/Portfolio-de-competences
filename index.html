@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — {fullName} (BUT)</title>
+  <meta name="description" content="Portfolio de compétences — BUT. Présentation, compétences et SAÉ." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" data-profile="initials">PN</a>
+    <nav class="nav">
+      <a href="index.html#presentation">Présentation</a>
+      <a href="index.html#competences">Compétences</a>
+      <a href="index.html#sae">SAÉ</a>
+      <a href="sae-annees.html">Toutes les SAÉ</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="presentation">
+      <div class="hero__content">
+        <p class="tag" id="profile-program">
+          Étudiant en BUT — Parcours Informatique
+        </p>
+        <h1 id="profile-title">
+          Je m'appelle {fullName} et je conçois des solutions web utiles.
+        </h1>
+        <p class="lead" id="profile-intro">
+          En BUT, j'apprends à analyser un besoin, concevoir une interface
+          claire, développer une application fiable et travailler efficacement
+          en équipe. Ce portfolio présente mes compétences à travers mes SAÉ
+          et projets.
+        </p>
+        <div class="hero__cta">
+          <a class="btn" id="cta-sae" href="sae-template.html">Voir une SAÉ type</a>
+          <a class="btn btn--ghost" href="#sae">Mes SAÉ</a>
+        </div>
+        <ul class="hero__meta" id="profile-meta"></ul>
+      </div>
+      <div class="hero__card">
+        <div class="stats" id="profile-stats"></div>
+        <div class="card-note">
+          <h3>Ce que je veux démontrer</h3>
+          <p id="profile-goal">
+            Comprendre, concevoir, développer, tester et communiquer avec
+            clarté.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competences">
+      <div class="section__title">
+        <h2>Compétences clés</h2>
+        <p>
+          Mes compétences sont structurées par les attendus du BUT et les
+          acquis des SAÉ.
+        </p>
+      </div>
+      <div class="grid-3" id="competences-list"></div>
+    </section>
+
+    <section class="section" id="sae">
+      <div class="section__title">
+        <h2>SAÉ mises en avant</h2>
+        <p>
+          Chaque SAÉ illustre une compétence précise et un livrable concret.
+        </p>
+      </div>
+      <div class="grid-2" id="sae-preview"></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section__title">
+        <h2>Me contacter</h2>
+        <p>Disponible pour stage, alternance ou projet étudiant.</p>
+      </div>
+      <div class="contact__card">
+        <div>
+          <p class="contact__label">Email</p>
+          <p class="contact__value" id="contact-email">
+            prenom.nom@email.com
+          </p>
+        </div>
+        <div>
+          <p class="contact__label">LinkedIn</p>
+          <p class="contact__value" id="contact-linkedin">
+            linkedin.com/in/prenomnom
+          </p>
+        </div>
+        <div>
+          <p class="contact__label">Téléphone</p>
+          <p class="contact__value" id="contact-phone">06 00 00 00 00</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © 2026 <span data-profile="fullName">Prénom Nom</span> — Portfolio BUT
+    </p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

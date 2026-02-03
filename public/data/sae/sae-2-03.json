@@ -1,0 +1,57 @@
+{
+  "id": "sae-2-03",
+  "year": 2,
+  "semester": "S3",
+  "title": "SAÉ 2.03 — Dashboard de suivi",
+  "short": "Tableau de bord pour analyser des indicateurs et faciliter la prise de décision.",
+  "lead": "Création d'un dashboard interactif pour visualiser des indicateurs et produire des analyses simples.",
+  "duration": "2 semaines",
+  "deliverablesCount": 2,
+  "deliverables": [
+    {
+      "title": "Rapport",
+      "description": "Analyse des indicateurs et conclusions principales."
+    },
+    {
+      "title": "Démo",
+      "description": "Prototype de tableau de bord interactif."
+    }
+  ],
+  "teamSize": 1,
+  "teamLabel": "Solo",
+  "role": "Analyse des données, conception du dashboard et présentation.",
+  "info": {
+    "Temps du projet": "2 semaines (S3)",
+    "Nombre de livrables": "2 (rapport, démo)",
+    "Nombre de personnes": "1 étudiant",
+    "Outils": "Excel, Figma, VS Code"
+  },
+  "description": "À partir d'un jeu de données fourni, l'objectif était de créer un tableau de bord clair et d'extraire des conclusions utiles.",
+  "process": [
+    {
+      "title": "Analyse & cadrage",
+      "text": "Comprendre les indicateurs et les attentes métier."
+    },
+    {
+      "title": "Conception",
+      "text": "Choix des visualisations et structuration des vues."
+    },
+    {
+      "title": "Développement",
+      "text": "Prototype interactif et tests de lisibilité."
+    },
+    {
+      "title": "Livraison",
+      "text": "Présentation et synthèse des résultats."
+    }
+  ],
+  "apprentissages": [
+    "Créer des visualisations pertinentes.",
+    "Synthétiser des données complexes.",
+    "Présenter des résultats de manière claire."
+  ],
+  "resources": {
+    "but": "Données, communication",
+    "tools": "Figma, Excel"
+  }
+}

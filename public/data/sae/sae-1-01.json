@@ -1,0 +1,57 @@
+{
+  "id": "sae-1-0R",
+  "year": 1,
+  "semester": "S1",
+  "title": "SAÉ 1.01 — Découverte du développement web",
+  "short": "Premiers livrables web : pages statiques, structure HTML et style CSS.",
+  "lead": "Initiation au développement web et à la structuration d'un site simple, en autonomie encadrée.",
+  "duration": "2 semaines",
+  "deliverablesCount": 2,
+  "deliverables": [
+    {
+      "title": "Maquette",
+      "description": "Wireframes simples pour poser la structure des pages."
+    },
+    {
+      "title": "Site statique",
+      "description": "Pages HTML/CSS avec navigation et mise en forme propre."
+    }
+  ],
+  "teamSize": 2,
+  "teamLabel": "Équipe",
+  "role": "Intégration HTML/CSS, mise en page et tests.",
+  "info": {
+    "Temps du projet": "2 semaines (S1)",
+    "Nombre de livrables": "2 (maquette, site statique)",
+    "Nombre de personnes": "2 étudiants",
+    "Outils": "Figma, VS Code"
+  },
+  "description": "L'objectif était de comprendre les bases du web et de transformer un besoin simple en pages structurées, lisibles et cohérentes.",
+  "process": [
+    {
+      "title": "Analyse & cadrage",
+      "text": "Compréhension du besoin et définition des pages nécessaires."
+    },
+    {
+      "title": "Conception",
+      "text": "Wireframes et choix de structure."
+    },
+    {
+      "title": "Développement",
+      "text": "Intégration HTML/CSS et tests de rendu."
+    },
+    {
+      "title": "Livraison",
+      "text": "Mise en ligne locale et présentation finale."
+    }
+  ],
+  "apprentissages": [
+    "Structurer une page web avec HTML sémantique.",
+    "Appliquer des styles CSS cohérents.",
+    "Comprendre la navigation et l'ergonomie de base."
+  ],
+  "resources": {
+    "but": "Développement web, communication",
+    "tools": "Figma, VS Code"
+  }
+}

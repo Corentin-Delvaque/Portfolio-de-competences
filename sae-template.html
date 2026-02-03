@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SAÉ — {fullName}</title>
+    <meta name="description" content="Présentation d'une SAÉ — objectifs, déroulement, livrables, apprentissages." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html" data-profile="initials">PN</a>
+      <nav class="nav">
+        <a href="index.html#presentation">Présentation</a>
+        <a href="index.html#competences">Compétences</a>
+        <a href="index.html#sae">SAÉ</a>
+        <a href="sae-annees.html">Toutes les SAÉ</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero--compact">
+        <div class="hero__content">
+          <p class="tag" id="sae-tag">SAÉ — Semestre X</p>
+          <h1 id="sae-title">Titre de la SAÉ</h1>
+          <p class="lead" id="sae-lead">
+            Résumer en 2 à 3 phrases le projet, le besoin initial et la valeur apportée.
+          </p>
+          <div class="hero__cta">
+            <a class="btn" href="#deroulement">Voir le déroulement</a>
+            <a class="btn btn--ghost" href="#apprentissages">Apprentissages</a>
+          </div>
+        </div>
+        <div class="hero__card">
+          <div class="stats" id="sae-stats"></div>
+          <div class="card-note">
+            <h3>Rôle</h3>
+            <p id="sae-role">Décrire clairement votre rôle : chef de projet, intégration, conception, data, etc.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="info">
+        <div class="section__title">
+          <h2>Informations</h2>
+          <p>Données clés pour situer rapidement la SAÉ.</p>
+        </div>
+        <div class="info-grid" id="sae-info"></div>
+      </section>
+
+      <section class="section" id="description">
+        <div class="section__title">
+          <h2>Description du projet</h2>
+          <p>Le contexte, le besoin et la solution proposée.</p>
+        </div>
+        <div class="text-block">
+          <p id="sae-description"></p>
+        </div>
+      </section>
+
+      <section class="section" id="deroulement">
+        <div class="section__title">
+          <h2>Déroulement du projet</h2>
+          <p>Les étapes clés pour montrer la méthode de travail.</p>
+        </div>
+        <div class="timeline" id="sae-process"></div>
+      </section>
+
+      <section class="section" id="livrables">
+        <div class="section__title">
+          <h2>Livrables</h2>
+          <p>Ce qui a été produit concrètement.</p>
+        </div>
+        <div class="grid-3" id="sae-livrables"></div>
+      </section>
+
+      <section class="section" id="apprentissages">
+        <div class="section__title">
+          <h2>Apprentissages critiques</h2>
+          <p>Ce que cette SAÉ a permis d'acquérir ou de renforcer.</p>
+        </div>
+        <div class="text-block">
+          <ul class="list" id="sae-apprentissages"></ul>
+        </div>
+      </section>
+
+      <section class="section" id="ressources">
+        <div class="section__title">
+          <h2>Ressources mobilisées</h2>
+          <p>Modules, cours et outils utilisés.</p>
+        </div>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Ressources BUT</h3>
+            <p id="sae-resources-but"></p>
+          </article>
+          <article class="card">
+            <h3>Outils</h3>
+            <p id="sae-resources-tools"></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 <span data-profile="fullName">Prénom Nom</span> — SAÉ</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "id": "sae-3-02",
+  "year": 3,
+  "semester": "S6",
+  "title": "SAÉ 3.02 — Projet pro / stage",
+  "short": "Mise en situation professionnelle ou projet en entreprise.",
+  "lead": "Projet de professionnalisation mené en entreprise ou en collaboration avec un partenaire externe.",
+  "duration": "8 semaines",
+  "deliverablesCount": 2,
+  "deliverables": [
+    {
+      "title": "Dossier",
+      "description": "Dossier complet du projet et des résultats."
+    },
+    {
+      "title": "Soutenance",
+      "description": "Présentation professionnelle et bilan."
+    }
+  ],
+  "teamSize": 1,
+  "teamLabel": "Individuel",
+  "role": "Conduite du projet, suivi client et livraison.",
+  "info": {
+    "Temps du projet": "8 semaines (S6)",
+    "Nombre de livrables": "2 (dossier, soutenance)",
+    "Nombre de personnes": "1 étudiant",
+    "Outils": "Suite Office, Git, outils entreprise"
+  },
+  "description": "Projet de fin de BUT, centré sur l'autonomie et la professionnalisation.",
+  "process": [
+    {
+      "title": "Cadrage",
+      "text": "Définition du cahier des charges et des attentes."
+    },
+    {
+      "title": "Réalisation",
+      "text": "Production, suivi client et ajustements."
+    },
+    {
+      "title": "Validation",
+      "text": "Tests et validation finale."
+    },
+    {
+      "title": "Présentation",
+      "text": "Soutenance et bilan."
+    }
+  ],
+  "apprentissages": [
+    "Piloter un projet en autonomie.",
+    "Communiquer avec un client.",
+    "Finaliser un dossier professionnel."
+  ],
+  "resources": {
+    "but": "Professionnalisation, communication",
+    "tools": "Outils entreprise"
+  }
+}

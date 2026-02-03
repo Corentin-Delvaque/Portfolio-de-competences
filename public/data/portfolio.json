@@ -1,0 +1,148 @@
+{
+  "profile": {
+    "firstName": "Corentin",
+    "lastName": "Delvaque",
+    "program": "Étudiant en BUT MMI — Parcours Création numérique",
+    "headline": "Je m'appelle {fullName} et je conçois des solutions web utiles.",
+    "intro": "En BUT, j'apprends à analyser un besoin, concevoir une interface claire, développer une application fiable et travailler efficacement en équipe. Ce portfolio présente mes compétences à travers mes SAÉ et projets.",
+    "goal": "Comprendre, concevoir, développer, tester et communiquer avec clarté.",
+    "meta": [
+      "Recherche d'alternance / stage",
+      "Stack : HTML, CSS, JS, PHP, SQL",
+      "Localisation : Ville"
+    ],
+    "stats": [
+      { "value": "0", "label": "SAÉ réalisées", "auto": "saeCount" },
+      { "value": "12", "label": "Livrables livrés" },
+      { "value": "3", "label": "Projets en équipe" }
+    ],
+    "contact": {
+      "email": "prenom.nom@email.com",
+      "linkedin": "linkedin.com/in/prenomnom",
+      "phone": "06 00 00 00 00"
+    }
+  },
+  "settings": {
+    "latestCount": 2
+  },
+  "competences": [
+    {
+      "title": "Concevoir",
+      "description": "Analyse des besoins, maquettage, hiérarchisation de l'information, parcours utilisateur.",
+      "tagline": "Outils : Figma, wireframes, storyboard"
+    },
+    {
+      "title": "Développer",
+      "description": "Intégration web propre, JS structuré, bases de données relationnelles, APIs simples.",
+      "tagline": "Stack : HTML, CSS, JS, PHP, SQL"
+    },
+    {
+      "title": "Collaborer",
+      "description": "Travail en équipe, gestion de version, planification, livrables clairs et suivis.",
+      "tagline": "Méthodes : Git, Trello, SCRUM léger"
+    },
+    {
+      "title": "Collaborer",
+      "description": "Travail en équipe, gestion de version, planification, livrables clairs et suivis.",
+      "tagline": "Méthodes : Git, Trello, SCRUM léger"
+    }
+  ],
+  "years": [
+    {
+      "year": 1,
+      "summary": "Première année : bases du développement web et de la gestion de projet."
+    },
+    {
+      "year": 2,
+      "summary": "Deuxième année : applications plus complètes, données et travail collaboratif."
+    },
+    {
+      "year": 3,
+      "summary": "Troisième année : projets avancés et professionnalisation."
+    }
+  ],
+  "statsYears": [
+    { "value": "0", "label": "SAÉ total", "auto": "saeCount" },
+    { "value": "3", "label": "Années BUT" }
+  ],
+  "saes": [
+    {
+      "id": "sae-1-01",
+      "dataFile": "data/sae/sae-1-01.json",
+      "addedAt": "2024-10-01",
+      "year": 1,
+      "semester": "S1",
+      "title": "SAÉ 1.01 — Découverte du développement web",
+      "short": "Premiers livrables web : pages statiques, structure HTML et style CSS.",
+      "duration": "2 semaines",
+      "deliverablesCount": 2,
+      "teamSize": 2,
+      "teamLabel": "Équipe"
+    },
+    {
+      "id": "sae-1-02",
+      "dataFile": "data/sae/sae-1-02.json",
+      "addedAt": "2024-11-15",
+      "year": 1,
+      "semester": "S1",
+      "title": "SAÉ 1.02 — Site vitrine associatif",
+      "short": "Conception d'un site vitrine pour une association locale avec navigation claire et mise en valeur des événements.",
+      "duration": "3 semaines",
+      "deliverablesCount": 2,
+      "teamSize": 3,
+      "teamLabel": "Équipe de 3"
+    },
+    {
+      "id": "sae-2-03",
+      "dataFile": "data/sae/sae-2-03.json",
+      "addedAt": "2025-03-20",
+      "year": 2,
+      "semester": "S3",
+      "title": "SAÉ 2.03 — Dashboard de suivi",
+      "short": "Tableau de bord pour analyser des indicateurs et faciliter la prise de décision.",
+      "duration": "2 semaines",
+      "deliverablesCount": 2,
+      "teamSize": 1,
+      "teamLabel": "Solo"
+    },
+    {
+      "id": "sae-2-04",
+      "dataFile": "data/sae/sae-2-04.json",
+      "addedAt": "2025-05-10",
+      "year": 2,
+      "semester": "S3",
+      "title": "SAÉ 2.04 — Application de gestion",
+      "short": "Application CRUD avec base de données et documentation utilisateur.",
+      "duration": "4 semaines",
+      "deliverablesCount": 2,
+      "teamSize": 4,
+      "teamLabel": "Équipe de 4"
+    },
+    {
+      "id": "sae-3-01",
+      "dataFile": "data/sae/sae-3-01.json",
+      "addedAt": "2025-11-05",
+      "year": 3,
+      "semester": "S5",
+      "title": "SAÉ 3.01 — Projet web avancé",
+      "short": "Projet complet avec architecture, tests et déploiement.",
+      "duration": "6 semaines",
+      "deliverablesCount": 2,
+      "teamSize": 3,
+      "teamLabel": "Équipe"
+    },
+    {
+      "id": "sae-3-02",
+      "dataFile": "data/sae/sae-3-02.json",
+      "addedAt": "2026-01-15",
+      "year": 3,
+      "semester": "S6",
+      "title": "SAÉ 3.02 — Projet pro / stage",
+      "short": "Mise en situation professionnelle ou projet en entreprise.",
+      "duration": "8 semaines",
+      "deliverablesCount": 2,
+      "teamSize": 1,
+      "teamLabel": "Individuel"
+    }
+  ]
+}

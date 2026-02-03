@@ -1,0 +1,57 @@
+{
+  "id": "sae-3-01",
+  "year": 3,
+  "semester": "S5",
+  "title": "SAÉ 3.01 — Projet web avancé",
+  "short": "Projet complet avec architecture, tests et déploiement.",
+  "lead": "Conception d'un projet web avancé avec des exigences proches du monde professionnel.",
+  "duration": "6 semaines",
+  "deliverablesCount": 2,
+  "deliverables": [
+    {
+      "title": "Application",
+      "description": "Solution complète avec tests et documentation."
+    },
+    {
+      "title": "Rapport",
+      "description": "Bilan détaillé, choix techniques et résultats."
+    }
+  ],
+  "teamSize": 3,
+  "teamLabel": "Équipe",
+  "role": "Architecture, coordination technique et tests.",
+  "info": {
+    "Temps du projet": "6 semaines (S5)",
+    "Nombre de livrables": "2 (application, rapport)",
+    "Nombre de personnes": "3 étudiants",
+    "Outils": "GitHub, Docker, VS Code"
+  },
+  "description": "Projet avancé mêlant conception, développement, tests et déploiement afin de simuler une situation professionnelle.",
+  "process": [
+    {
+      "title": "Analyse & cadrage",
+      "text": "Définition du besoin et répartition des rôles."
+    },
+    {
+      "title": "Conception",
+      "text": "Architecture, choix technologiques et prototypes."
+    },
+    {
+      "title": "Développement",
+      "text": "Implémentation, tests et intégration continue."
+    },
+    {
+      "title": "Livraison",
+      "text": "Démo finale et documentation."
+    }
+  ],
+  "apprentissages": [
+    "Structurer un projet complexe.",
+    "Mettre en place des tests.",
+    "Collaborer sur un projet long."
+  ],
+  "resources": {
+    "but": "Architecture, gestion de projet",
+    "tools": "GitHub, Docker"
+  }
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toutes les SAÉ — {fullName}</title>
+    <meta name="description" content="Liste des SAÉ par année de BUT." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html" data-profile="initials">PN</a>
+      <nav class="nav">
+        <a href="index.html#presentation">Présentation</a>
+        <a href="index.html#competences">Compétences</a>
+        <a href="index.html#sae">SAÉ</a>
+        <a href="sae-annees.html">Toutes les SAÉ</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero--compact">
+        <div class="hero__content">
+          <p class="tag">Organisation par année</p>
+          <h1>Toutes les SAÉ du BUT</h1>
+          <p class="lead">
+            Cette page regroupe l'ensemble des SAÉ réalisées, classées par année. Chaque carte pointe vers une
+            page SAÉ dédiée.
+          </p>
+          <div class="hero__cta">
+            <a class="btn" href="#but1">Voir BUT1</a>
+            <a class="btn btn--ghost" href="#but2">Voir BUT2</a>
+            <a class="btn btn--ghost" href="#but3">Voir BUT3</a>
+          </div>
+        </div>
+        <div class="hero__card">
+          <div class="stats" id="sae-stats-years"></div>
+          <div class="card-note">
+            <h3>Conseil</h3>
+            <p>Duplique la page SAÉ type pour chaque projet et lie-la ici.</p>
+          </div>
+        </div>
+      </section>
+
+      <div id="sae-years"></div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 <span data-profile="fullName">Prénom Nom</span> — SAÉ par années</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "id": "sae-1-02",
+  "year": 1,
+  "semester": "S1",
+  "title": "SAÉ 1.02 — Site vitrine associatif",
+  "short": "Conception d'un site vitrine pour une association locale avec navigation claire et mise en valeur des événements.",
+  "lead": "Création d'un site vitrine responsive destiné à valoriser les actions d'une association locale.",
+  "duration": "3 semaines",
+  "deliverablesCount": 2,
+  "deliverables": [
+    {
+      "title": "Prototype",
+      "description": "Maquettes hi-fi et parcours utilisateur complet."
+    },
+    {
+      "title": "Site responsive",
+      "description": "Intégration HTML/CSS/JS et optimisation mobile."
+    }
+  ],
+  "teamSize": 3,
+  "teamLabel": "Équipe de 3",
+  "role": "Conception UI, intégration et coordination du contenu.",
+  "info": {
+    "Temps du projet": "3 semaines (S1)",
+    "Nombre de livrables": "2 (prototype, code)",
+    "Nombre de personnes": "3 étudiants",
+    "Outils": "Figma, VS Code, Git"
+  },
+  "description": "Le projet consistait à mettre en avant les actions d'une association. Nous avons conçu une interface claire pour présenter les événements, l'équipe et les moyens de contact.",
+  "process": [
+    {
+      "title": "Analyse & cadrage",
+      "text": "Échanges avec le commanditaire et définition des contenus clés."
+    },
+    {
+      "title": "Conception",
+      "text": "Wireframes, design UI et hiérarchie de l'information."
+    },
+    {
+      "title": "Développement",
+      "text": "Intégration responsive et interactions simples."
+    },
+    {
+      "title": "Livraison",
+      "text": "Tests, corrections et présentation finale."
+    }
+  ],
+  "apprentissages": [
+    "Concevoir une interface responsive adaptée au contenu.",
+    "Travailler en équipe avec Git.",
+    "Structurer la communication visuelle d'un site vitrine."
+  ],
+  "resources": {
+    "but": "Communication, développement web",
+    "tools": "Figma, VS Code, Git"
+  }
+}

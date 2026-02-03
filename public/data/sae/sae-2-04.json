@@ -1,0 +1,57 @@
+{
+  "id": "sae-2-04",
+  "year": 2,
+  "semester": "S3",
+  "title": "SAÉ 2.04 — Application de gestion",
+  "short": "Application CRUD avec base de données et documentation utilisateur.",
+  "lead": "Développement d'une application de gestion permettant la création, modification et suppression d'entités.",
+  "duration": "4 semaines",
+  "deliverablesCount": 2,
+  "deliverables": [
+    {
+      "title": "Application",
+      "description": "Code fonctionnel avec accès CRUD."
+    },
+    {
+      "title": "Documentation",
+      "description": "Guide utilisateur et documentation technique."
+    }
+  ],
+  "teamSize": 4,
+  "teamLabel": "Équipe de 4",
+  "role": "Back-end, structuration BD et tests.",
+  "info": {
+    "Temps du projet": "4 semaines (S3)",
+    "Nombre de livrables": "2 (code, documentation)",
+    "Nombre de personnes": "4 étudiants",
+    "Outils": "VS Code, GitHub, MySQL"
+  },
+  "description": "Création d'une application de gestion avec base de données relationnelle pour répondre à un besoin métier.",
+  "process": [
+    {
+      "title": "Analyse & cadrage",
+      "text": "Modélisation des données et définition des fonctionnalités."
+    },
+    {
+      "title": "Conception",
+      "text": "Architecture technique et maquettes fonctionnelles."
+    },
+    {
+      "title": "Développement",
+      "text": "Implémentation des fonctions CRUD et tests."
+    },
+    {
+      "title": "Livraison",
+      "text": "Documentation et démonstration finale."
+    }
+  ],
+  "apprentissages": [
+    "Modéliser une base de données relationnelle.",
+    "Implémenter des opérations CRUD.",
+    "Rédiger une documentation claire."
+  ],
+  "resources": {
+    "but": "Base de données, développement",
+    "tools": "MySQL, VS Code, GitHub"
+  }
+}
