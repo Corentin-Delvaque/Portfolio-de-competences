@@ -16,15 +16,19 @@ npm run preview
 
 Le build est généré dans `dist/`.
 
-## Déploiement GitHub Pages (manuel)
+## Déploiement GitHub Pages (GitHub Actions)
 
-1. Construire le site :
+Ce projet est configuré pour se déployer automatiquement via le workflow
+`.github/workflows/deploy.yml`.
+
+1. Dans GitHub : `Settings` → `Pages` → `Source` → choisir **GitHub Actions**.
+2. Pousser sur `main` : le workflow construit et publie `dist/`.
+
+Si besoin d’un déploiement manuel, vous pouvez toujours générer `dist/` avec :
 
 ```bash
 npm run build
 ```
-
-2. Pousser le contenu de `dist/` sur une branche `gh-pages` (ou via l'interface GitHub Pages).
 
 ## Structure du projet
 
